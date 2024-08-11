@@ -6,8 +6,8 @@ import AnimatedImage from "./motion";
 import ButtonBlock from '@/components/component/block/button_block'
 
 /**
- * Card Component
- * Reusable card component
+ *Card Component
+ *Reusable card component
  */
 export const CardBlockComponent : CmsComponent<CardBlockDataFragment> = ({ data: { layout: imageLayout = "before", image, heading = "", subheading = "", description = {json: null}, color = "blue", link: button, icon }, inEditMode }) => {
     const additionalClasses: string[] = [];
